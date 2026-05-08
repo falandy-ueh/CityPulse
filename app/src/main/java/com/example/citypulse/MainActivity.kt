@@ -11,8 +11,8 @@ import com.example.citypulse.databinding.ActivityMainBinding
 import org.osmdroid.config.Configuration
 
 /**
- * Activité principale gérant la navigation via BottomNavigationView.
- * Design : Glassmorphism et immersion Edge-to-Edge.
+ * Activité principale gérant la navigation viaBottomNavigationView.
+ * Design : Glassmorphism et immersion Edge-to-Ede.
  */
 class MainActivity : AppCompatActivity() {
 
