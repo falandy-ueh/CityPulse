@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CityPulse</string>
+    <string name="nav_map">Carte</string>
+    <string name="nav_list">Lieux</string>
+    <string name="nav_favorites">Favoris</string>
+    <string name="search_places">Rechercher des lieux…</string>
+    <string name="my_location">Ma position</string>
+    <string name="no_places_found">Aucun lieu trouvé</string>
+    <string name="no_favorites">Aucun favori enregistré</string>
+    <string name="add_favorite">Ajouter aux favoris</string>
+    <string name="remove_favorite">Retirer des favoris</string>
+    <string name="share">Partager</string>
+    <string name="place_image">Image du lieu</string>
+    <string name="error_network">Impossible de charger les données. Vérifiez votre connexion.</string>
+    <string name="error_generic">Une erreur est survenue.</string>
+    <string name="loading">Chargement…</string>
+    <string name="notification_location_title">CityPulse actif</string>
+    <string name="notification_location_text">Suivi de votre position en cours…</string>
+    <string name="channel_location_name">Suivi de position</string>
+    <string name="channel_alert_name">Alertes lieux</string>
+</resources>

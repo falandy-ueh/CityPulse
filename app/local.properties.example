@@ -1,0 +1,15 @@
+# ═══════════════════════════════════════════════════════════════════
+#  TEMPLATE — Copier ce fichier en "local.properties" et remplir
+#  les valeurs. local.properties est ignoré par git (.gitignore)
+#  et ne sera JAMAIS publié sur GitHub.
+# ═══════════════════════════════════════════════════════════════════
+
+# Chemin vers le SDK Android (généré automatiquement par Android Studio)
+sdk.dir=/Users/VOTRE_NOM/Library/Android/sdk
+
+# Clé API OpenTripMap — gratuite sur https://opentripmap.io/product
+otm.api.key=VOTRE_CLE_OPENTRIPMAP
+
+# Clé API Google Maps — https://console.cloud.google.com
+# Activer : Maps SDK for Android
+google.maps.api.key=VOTRE_CLE_GOOGLE_MAPS
