@@ -1,0 +1,49 @@
+# ═══════════════════════════════════════════════════════════════
+#  CityPulse — .gitignore (repo public)
+# ═══════════════════════════════════════════════════════════════
+
+# ── Fichiers Markdown (tous sauf README.md et AGENTS.md) ─────────
+*.md
+!README.md
+!AGENTS.md
+
+# ── Variables d'environnement & secrets ──────────────────────────
+.env
+.env.*
+*.env
+local.properties
+google-services.json
+keystore.properties
+*.keystore
+!debug.keystore
+secrets.xml
+
+# ── Android / Gradle ─────────────────────────────────────────────
+*.iml
+.gradle/
+/app/build/
+/*/build/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ── Android Studio & IntelliJ ────────────────────────────────────
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+*.ipr
+*.iws
+
+# ── Système d'exploitation ───────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs & temporaires ───────────────────────────────────────────
+*.log
+*.tmp
+*.bak
