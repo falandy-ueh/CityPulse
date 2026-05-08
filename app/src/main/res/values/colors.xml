@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Palette officielle CityPulse -->
+    <color name="primary">#E91E8C</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="primaryContainer">#FFD8E9</color>
+    <color name="onPrimaryContainer">#3D0020</color>
+
+    <color name="secondary">#FF6B00</color>
+    <color name="onSecondary">#FFFFFF</color>
+    <color name="secondaryContainer">#FFDBCC</color>
+    <color name="onSecondaryContainer">#331100</color>
+
+    <color name="tertiary">#FF8C42</color>
+    <color name="onTertiary">#FFFFFF</color>
+    <color name="tertiaryContainer">#FFDDB3</color>
+    <color name="onTertiaryContainer">#291800</color>
+
+    <color name="error">#BA1A1A</color>
+    <color name="onError">#FFFFFF</color>
+    <color name="errorContainer">#FFDAD6</color>
+    <color name="onErrorContainer">#410002</color>
+
+    <color name="background_light">#FAFAFA</color>
+    <color name="onBackground_light">#1C1B1F</color>
+
+    <color name="background_dark">#0F0F1A</color>
+    <color name="onBackground_dark">#E6E1E5</color>
+
+    <color name="surface_light">#FFFFFF</color>
+    <color name="onSurface_light">#1C1B1F</color>
+
+    <color name="surface_dark">#1A1A2E</color>
+    <color name="onSurface_dark">#E6E1E5</color>
+
+    <color name="surfaceVariant_light">#E7E0EC</color>
+    <color name="onSurfaceVariant_light">#49454F</color>
+
+    <color name="surfaceVariant_dark">#49454F</color>
+    <color name="onSurfaceVariant_dark">#CAC4D0</color>
+
+    <color name="outline">#79747E</color>
+
+    <!-- Glassmorphism & Effects -->
+    <color name="glass_white">#B3FFFFFF</color>
+    <color name="glass_dark">#B31A1A2E</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>

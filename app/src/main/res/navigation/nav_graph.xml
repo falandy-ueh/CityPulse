@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mapFragment">
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.citypulse.ui.map.MapFragment"
+        android:label="Carte"
+        tools:layout="@layout/fragment_map">
+        <action
+            android:id="@+id/action_mapFragment_to_placeDetailFragment"
+            app:destination="@id/placeDetailFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/placeListFragment"
+        android:name="com.example.citypulse.ui.list.PlaceListFragment"
+        android:label="Lieux"
+        tools:layout="@layout/fragment_place_list">
+        <action
+            android:id="@+id/action_placeListFragment_to_placeDetailFragment"
+            app:destination="@id/placeDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.citypulse.ui.favorites.FavoritesFragment"
+        android:label="Favoris"
+        tools:layout="@layout/fragment_favorites">
+        <action
+            android:id="@+id/action_favoritesFragment_to_placeDetailFragment"
+            app:destination="@id/placeDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.citypulse.ui.profile.ProfileFragment"
+        android:label="Profil"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/placeDetailFragment"
+        android:name="com.example.citypulse.ui.detail.PlaceDetailFragment"
+        android:label="Détails du lieu"
+        tools:layout="@layout/fragment_place_detail">
+        <argument
+            android:name="placeId"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

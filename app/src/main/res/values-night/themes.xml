@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme (Dark Mode). -->
+    <style name="Base.Theme.CityPulse" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Palette de couleurs M3 Dark -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+        <item name="colorPrimaryContainer">@color/primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/onPrimaryContainer</item>
+
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/onSecondary</item>
+        <item name="colorSecondaryContainer">@color/secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/onSecondaryContainer</item>
+
+        <item name="colorTertiary">@color/tertiary</item>
+        <item name="colorOnTertiary">@color/onTertiary</item>
+        <item name="colorTertiaryContainer">@color/tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/onTertiaryContainer</item>
+
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/onSurface_dark</item>
+        <item name="colorSurfaceVariant">@color/surfaceVariant_dark</item>
+        <item name="colorOnSurfaceVariant">@color/onSurfaceVariant_dark</item>
+
+        <!-- Shapes (Hérités de values/shape.xml) -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.CityPulse.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.CityPulse.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.CityPulse.Large</item>
+
+        <!-- Typography (Héritée de values/type.xml) -->
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.CityPulse.HeadlineLarge</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.CityPulse.TitleLarge</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.CityPulse.BodyLarge</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.CityPulse.LabelMedium</item>
+    </style>
+
+    <!-- Splash Screen Theme Dark -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/background_dark</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.CityPulse</item>
+    </style>
+
+    <!-- Glassmorphism Styles Dark -->
+    <style name="Widget.CityPulse.Card.Glass" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/glass_dark</item>
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+</resources>
