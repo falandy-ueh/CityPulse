@@ -60,3 +60,6 @@ est réalisée par chaque étudiant concerné.
 - Il n'a pas remplacé la compréhension du code par l'étudiant.
 - Toute la partie réseau a été relue, comprise et validée par l'étudiant avant
   intégration.
+## Logique Métier 
+- J'ai utilisé l'IA pour m'aider à comprendre l'architecture MVVM et à structurer mes dossiers dans Android Studio. 
+- L'IA m'a fourni les bases de code pour le Repository (gestion du mode hors-ligne), le ViewModel (calcul de distance et filtrage) et l'implémentation du partage via Intent implicite.
